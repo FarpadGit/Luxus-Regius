@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Etiquette;
+    src: local("Etiquette"), url("../etiquette.otf");
+}
+
+:root:has(.page.pizza) {
+    --font-menu-highlight: "Cagliostro";
+}

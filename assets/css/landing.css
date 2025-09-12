@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Romantic Aesthetic;
+    src: local("Romantic Aesthetic"), url("../romantic-aesthetic-demo.regular.otf");
+}
+
+@font-face {
+    font-family: Silver Glass;
+    src: local("Silver Glass"), url("../ut-silver-glass-demo.regular.otf");
+}
+
+:root:has(.page.landing) {
+    --color-background: var(--color-secondary);
+    --size-header-sm: 2rem;
+    --size-header-lg: 2.5rem;
+    --size-paragraph-sm: medium;
+    --size-paragraph-lg: large;
+
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+
+        &.top {
+            background-color: transparent;
+        }
+    }
+
+    main {
+        margin-top: 0;
+    }
+
+    &:has(.bg-light.in-viewport) {
+        --color-background: var(--color-primary);
+    }
+}

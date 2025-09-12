@@ -1,0 +1,22 @@
+@font-face {
+    font-family: Hitto Sushi;
+    src: local("Hitto Sushi"), url("../HittoSushi-p7XMO.otf");
+}
+
+:root:has(.page.sushi) {
+    background-image: url("/sushi-bg.jpg");
+    --color-background: #141820;
+    background-blend-mode: darken;
+
+    .dropzone {
+        border-image: url("/border-white.png") 1 round;
+    }
+
+    #legend-container {
+
+        p,
+        input {
+            color: white;
+        }
+    }
+}

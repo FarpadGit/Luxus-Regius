@@ -1,0 +1,25 @@
+@font-face {
+    font-family: Cocktails;
+    src: local("Cocktails"), url("../Cocktails-Regular.otf");
+}
+
+:root:has(.page.cocktail) {
+    --color-background: #0E0B15;
+    --font-menu-highlight: Baskerville;
+
+    .dropzone {
+        border-image: url("/border-white.png") 1 round;
+    }
+
+    .item-container {
+        text-shadow: 1px 1px black;
+    }
+
+    #legend-container {
+
+        p,
+        input {
+            color: white;
+        }
+    }
+}

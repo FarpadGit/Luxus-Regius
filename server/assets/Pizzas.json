@@ -1,0 +1,420 @@
+﻿{
+    "template": {
+        "name": "B",
+        "legend": {
+            "show": false,
+            "text": ""
+        }
+    },
+    "menu": [{
+        "id": "0",
+        "text": "Pizzák",
+        "level": 0,
+        "isRightColumn": false,
+        "children": [
+        {
+            "id": "00",
+            "text": "BBQ",
+            "price": "4.095,-Ft",
+            "subtext": "(BBQ szósz, bacon, csirke mell csíkok, hagyma, kaliforniai paprika, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "01",
+            "text": "Bolognese",
+            "price": "3.695,-Ft",
+            "subtext": "(bolognai szósz, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "02",
+            "text": "Carbonara",
+            "price": "3.695,-Ft",
+            "subtext": "(carbonara alap, bacon, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "03",
+            "text": "Dolce Vita",
+            "price": "3.895,-Ft",
+            "subtext": "(paradicsom szósz, sonka, gomba, kukorica, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "04",
+            "text": "Falusi",
+            "price": "3.895,-Ft",
+            "subtext": "(tejszínes alap, tarja, vöröshagyma, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "05",
+            "text": "Gyros",
+            "price": "3.895,-Ft",
+            "subtext": "(gyros szósz, csirkemell csíkok, paradicsom karikák, uborka, vöröshagyma, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "06",
+            "text": "Hawaii",
+            "price": "3.895,-Ft",
+            "subtext": "(paradicsomszósz, sonka, ananász, kukorica, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "07",
+            "text": "Hawaii XTRA",
+            "price": "4.295,-Ft",
+            "subtext": "(paradicsomszósz, csirke, kukorica, avokádó, ananász karika, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "08",
+            "text": "Hawaiian BBQ",
+            "price": "4.195,-Ft",
+            "subtext": "(barbecue szósz, sonka, bacon, ananász, kukorica, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "09",
+            "text": "Húsimádó",
+            "price": "4.095,-Ft",
+            "subtext": "(paradicsomszósz, sonka, tarja, bacon, szalámi, csirkemell, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "010",
+            "text": "Magyaros",
+            "price": "3.895,-Ft",
+            "subtext": "(paradicsomszósz, szalámi, bacon, hagyma, pepperoni, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "011",
+            "text": "Manhattan",
+            "price": "3.895,-Ft",
+            "subtext": "(fokhagymás-tejszínes alap, sonka, kukorica, cheddar, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "012",
+            "text": "Margherita",
+            "price": "3.695,-Ft",
+            "subtext": "(fűszeres-paradicsomszósz, paradicsom karikák, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "013",
+            "text": "Mexikói",
+            "price": "3.895,-Ft",
+            "subtext": "(taco szósz, bacon, bab, kukorica, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "014",
+            "text": "Milano",
+            "price": "4.095,-Ft",
+            "subtext": "(sajtkrém, sonka, csirkemell csíkok, kukorica, kaliforniai paprika, vöröshagyma, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "015",
+            "text": "Négy évszak",
+            "price": "3.895,-Ft",
+            "subtext": "(paradicsomszósz, sonka, gomba, kukorica, szalámi, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "016",
+            "text": "Négysajtos",
+            "price": "3.895,-Ft",
+            "subtext": "(paradicsomszósz, márványsajt, parmezán, cheddar, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "017",
+            "text": "Olartiko",
+            "price": "3.895,-Ft",
+            "subtext": "(mustáros-tejszínes szósz, bacon, kolbász, kukorica, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "018",
+            "text": "Olaszkolbászos",
+            "price": "3.695,-Ft",
+            "subtext": "(paradicsomszósz, kolbász, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "019",
+            "text": "Perugia",
+            "price": "3.695,-Ft",
+            "subtext": "(tejszínes alap, csirkemell csíkok, kukorica, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "020",
+            "text": "Pomodoro",
+            "price": "3.895,-Ft",
+            "subtext": "(paradicsomszósz, sonka, paradicsom karikák, vöröshagyma, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "021",
+            "text": "Pompei",
+            "price": "4.095,-Ft",
+            "subtext": "(bolognai szósz, bacon, szalámi, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "022",
+            "text": "Sajtimádó",
+            "price": "4.095,-Ft",
+            "subtext": "(sajtkrém, bacon, csirkemell, cheddar, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "023",
+            "text": "Sonka-gomba",
+            "price": "3.695,-Ft",
+            "subtext": "(paradicsomszósz, sonka, gomba, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "024",
+            "text": "Sonka-kukorica",
+            "price": "3.695,-Ft",
+            "subtext": "(paradicsomszósz, sonka, kukorica, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "025",
+            "text": "Sonkás",
+            "price": "3.695,-Ft",
+            "subtext": "(paradicsomszósz, sonka, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "026",
+            "text": "Star",
+            "price": "4.095,-Ft",
+            "subtext": "(tejszínes alap, csirke, sonka, bacon, tarja, szalámi, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "027",
+            "text": "Supreme",
+            "price": "4.095,-Ft",
+            "subtext": "(paradicsomalap, dupla szalámi, dupla mozzarella, parmezán)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "028",
+            "text": "Szalámis",
+            "price": "3.695,-Ft",
+            "subtext": "(paradicsomszósz, szalámi, pepperoni, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        }]
+    },
+    {
+        "id": "1",
+        "text": "Pizzeppa",
+        "level": 0,
+        "isRightColumn": true,
+        "children": [
+        {
+            "id": "10",
+            "text": "Firenzei",
+            "price": "3.695,-Ft",
+            "subtext": "(tejföl, bacon, csirkemell csíkok, kukorica, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "11",
+            "text": "Húsimádó",
+            "price": "3.695,-Ft",
+            "subtext": "(paradicsomszósz, sonka, tarja, bacon, szalámi, csirkemell, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "12",
+            "text": "Sombrero",
+            "price": "3.695,-Ft",
+            "subtext": "(paradicsomos-húsos mexikói alap, bacon, bab, kukorica, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        }]
+    },
+    {
+        "id": "2",
+        "text": "Csípős Pizzák",
+        "level": 0,
+        "isRightColumn": true,
+        "children": [
+        {
+            "id": "20",
+            "text": "Bivaly",
+            "price": "3.895,-Ft",
+            "subtext": "(csípős-paradicsomszósz, kolbász, zöldpaprika, jalapeno, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "21",
+            "text": "Castello",
+            "price": "4.095,-Ft",
+            "subtext": "(csípős-tejszínes alap, bacon, tarja, kolbász, hagyma, jalapeno, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "22",
+            "text": "Chili Con Carne",
+            "price": "4.095,-Ft",
+            "subtext": "(bolognai ragu, bab, kukorica, jalapeno, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        }]
+    },
+    {
+        "id": "3",
+        "text": "Calzone",
+        "level": 0,
+        "isRightColumn": true,
+        "children": [
+        {
+            "id": "30",
+            "text": "Sajttal töltve",
+            "price": "+500,-Ft",
+            "subtext": "",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "31",
+            "text": "Baconnel töltve",
+            "price": "+500,-Ft",
+            "subtext": "",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "32",
+            "text": "Jalapenoval töltve",
+            "price": "+500,-Ft",
+            "subtext": "",
+            "imageUrl": "",
+            "disabled": false
+        }]
+    },
+    {
+        "id": "4",
+        "text": "Gluténmentes Pizzák",
+        "level": 0,
+        "isRightColumn": true,
+        "children": [
+        {
+            "id": "40",
+            "text": "Amore",
+            "price": "5.490,-Ft",
+            "subtext": "(paradicsomszósz, pirított királyrák, mozzarella)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "41",
+            "text": "Rosso",
+            "price": "5.690,-Ft",
+            "subtext": "(paradicsomszósz, trappista, pecorino, csípős szalámi, pármai sonka, koktélparadicsom, fokhagymás olaj)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "42",
+            "text": "Spinacio",
+            "price": "4.390,-Ft",
+            "subtext": "(paradicsomszósz, mozzarella, ricotta, baby spenót, fokhagyma)",
+            "imageUrl": "",
+            "disabled": false
+        },
+	    {
+            "id": "43",
+            "text": "Garden Vegan",
+            "price": "5.090,-Ft",
+            "subtext": "(paradicsomos alap, gomba, fekete olíva, brokkoli, paradicsom, violife sajt)",
+            "imageUrl": "",
+            "disabled": false
+        },
+	    {
+            "id": "44",
+            "text": "Vigoku Vegan",
+            "price": "4.790,-Ft",
+            "subtext": "(paradicsomos alap, gomba, kukorica, violife növényi sajt)",
+            "imageUrl": "",
+            "disabled": false
+        },
+	    {
+            "id": "45",
+            "text": "Capriciosa",
+            "price": "4.490,-Ft",
+            "subtext": "(paradicsomszósz, olasz sonka, mozzarella, gomba, zöld oliva, articsóka)",
+            "imageUrl": "",
+            "disabled": false
+        },
+	    {
+            "id": "46",
+            "text": "Quattro stagioni",
+            "price": "4.390,-Ft",
+            "subtext": "(paradicsomszósz, mozzarella, brokkoli, gomba, kukorica, articsóka)",
+            "imageUrl": "",
+            "disabled": false
+        },
+	    {
+            "id": "47",
+            "text": "Pistacchio",
+            "price": "5.990,-Ft",
+            "subtext": "(Pisztáciás pesto alap, fior di latte, Burrata di Puglia, darált pisztácia, friss bazsalikom, olívaolaj, pármai sonka)",
+            "imageUrl": "",
+            "disabled": false
+        },
+	    {
+            "id": "48",
+            "text": "Tartufo",
+            "price": "5.990,-Ft",
+            "subtext": "(Fior di latte alap, salsiccia kolbászkrém, szarvasgomba krém, pirított dió, tarallo ropogós, friss burrata Pugliese, friss bazsalikom)",
+            "imageUrl": "",
+            "disabled": false
+        }]
+    }]
+}

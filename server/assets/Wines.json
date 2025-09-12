@@ -1,0 +1,453 @@
+{
+    "template": {
+        "name": "B",
+        "legend": {
+            "show": false,
+            "text": ""
+        }
+    },
+    "menu": [{
+        "id": "0",
+        "text": "vörös borok - red wines",
+        "highlightColor": "hsl(0 79.76% 44.09% / 1)",
+        "level": 0,
+        "isRightColumn": false,
+        "children": [
+        {
+            "id": "01",
+            "text": "Luca Wines - Old Vine Malbec",
+            "price": "27.900,- Ft",
+            "subtext": "Argentina - Mendoza",
+            "imageUrl": "",
+            "disabled": false,
+            "extras": [
+            {
+                "id": 0,
+                "text": "0.5l",
+                "price": "4.900,- Ft"
+            }]
+        },
+        {
+            "id": "02",
+            "text": "Trulli - Primitivo Lucale",
+            "price": "14.900,- Ft",
+            "subtext": "Olaszország - Puglia",
+            "imageUrl": "",
+            "disabled": false,
+            "extras": [
+            {
+                "id": 0,
+                "text": "0.5l",
+                "price": "2.680,- Ft"
+            }]
+        },
+        {
+            "id": "03",
+            "text": "Brazin - Old Vine Zinfandel",
+            "price": "18.900,- Ft",
+            "subtext": "Kalifornia USA - Lodi",
+            "imageUrl": "",
+            "disabled": false,
+            "extras": [
+            {
+                "id": 0,
+                "text": "0.5l",
+                "price": "3.390,- Ft"
+            }]
+        },
+        {
+            "id": "04",
+            "text": "Château Haut - Brisson St. Émilion Grand Cru",
+            "price": "31.900,- Ft",
+            "subtext": "Franciaország - Bordeaux",
+            "imageUrl": "",
+            "disabled": false,
+            "extras": [
+            {
+                "id": 0,
+                "text": "0.5l",
+                "price": "5.450,- Ft"
+            }]
+        },
+        {
+            "id": "05",
+            "text": "Takler - Regnum",
+            "price": "24.800,- Ft",
+            "subtext": "Szekszárd",
+            "imageUrl": "",
+            "disabled": false,
+            "extras": [
+            {
+                "id": 0,
+                "text": "0.5l",
+                "price": "4.450,- Ft"
+            }]
+        },
+        {
+            "id": "06",
+            "text": "Kiss Gábor - Enigma",
+            "price": "20.500,- Ft",
+            "subtext": "Villány",
+            "imageUrl": "",
+            "disabled": false,
+            "extras": [
+            {
+                "id": 0,
+                "text": "0.5l",
+                "price": "3.690,- Ft"
+            }]
+        },
+        {
+            "id": "07",
+            "text": "Ipacs Szabó István - „Nászút helyett”",
+            "price": "13.800,- Ft",
+            "subtext": "Villány",
+            "imageUrl": "",
+            "disabled": false,
+            "extras": [
+            {
+                "id": 0,
+                "text": "0.5l",
+                "price": "2.490,- Ft"
+            }]
+        },
+        {
+            "id": "08",
+            "text": "Bodri-Eszterbauer-Mészáros-Takler - Etalon",
+            "price": "12.700,- Ft",
+            "subtext": "Szekszárd",
+            "imageUrl": "",
+            "disabled": false,
+            "extras": [
+            {
+                "id": 0,
+                "text": "0.5l",
+                "price": "2.290,- Ft"
+            }]
+        },
+        {
+            "id": "09",
+            "text": "Sauska - Cabernet Sauvignon",
+            "price": "10.900,- Ft",
+            "subtext": "Villány",
+            "imageUrl": "",
+            "disabled": false,
+            "extras": [
+            {
+                "id": 0,
+                "text": "0.5l",
+                "price": "1.970,- Ft"
+            }]
+        },
+        {
+            "id": "010",
+            "text": "Maróti Attila - Mátrai Kékfrankos",
+            "price": "10.900,- Ft",
+            "subtext": "Mátraalja",
+            "imageUrl": "",
+            "disabled": false,
+            "extras": [
+            {
+                "id": 0,
+                "text": "0.5l",
+                "price": "1.970,- Ft"
+            }]
+        },
+        {
+            "id": "011",
+            "text": "St.Andrea - Áldás",
+            "price": "12.700,- Ft",
+            "subtext": "Eger",
+            "imageUrl": "",
+            "disabled": false,
+            "extras": [
+            {
+                "id": 0,
+                "text": "0.5l",
+                "price": "2.290,- Ft"
+            }]
+        },
+        {
+            "id": "012",
+            "text": "Recas - Feketeleányka La Putere",
+            "price": "10.800,- Ft",
+            "subtext": "Erdély",
+            "imageUrl": "",
+            "disabled": false,
+            "extras": [
+            {
+                "id": 0,
+                "text": "0.5l",
+                "price": "1.850,- Ft"
+            }]
+        },
+        {
+            "id": "013",
+            "text": "Marrenon - Les Grains Grenache",
+            "price": "10.300,- Ft",
+            "subtext": "Franciaország - Provance-Luberon",
+            "imageUrl": "",
+            "disabled": false,
+            "extras": [
+            {
+                "id": 0,
+                "text": "0.5l",
+                "price": "1.850,- Ft"
+            }]
+        },
+        {
+            "id": "014",
+            "text": "Etyeki Kúria - Pinot Noir",
+            "price": "13.900,- Ft",
+            "subtext": "Etyek-Buda",
+            "imageUrl": "",
+            "disabled": false,
+            "extras": [
+            {
+                "id": 0,
+                "text": "0.5l",
+                "price": "2.500,- Ft"
+            }]
+        }]
+    },
+    {
+        "id": "1",
+        "text": "fehér borok - white wines",
+        "highlightColor": "hsl(20 0% 79.25% / 1)",
+        "level": 0,
+        "isRightColumn": true,
+        "children": [
+        {
+            "id": "10",
+            "text": "Váli - Kéknyelvű",
+            "price": "13.700,- Ft",
+            "subtext": "Badacsony",
+            "imageUrl": "",
+            "disabled": false,
+            "extras": [
+            {
+                "id": 0,
+                "text": "0.5l",
+                "price": "2.450,- Ft"
+            }]
+        },
+        {
+            "id": "11",
+            "text": "Préselő - „Apukám bora” Furmint",
+            "price": "9.800,- Ft",
+            "subtext": "Tokaj",
+            "imageUrl": "",
+            "disabled": false,
+            "extras": [
+            {
+                "id": 0,
+                "text": "0.5l",
+                "price": "1.750,- Ft"
+            }]
+        },
+        {
+            "id": "12",
+            "text": "Carpinus - Furmint Grande Reserva",
+            "price": "10.800,- Ft",
+            "subtext": "Tokaj",
+            "imageUrl": "",
+            "disabled": false,
+            "extras": [
+            {
+                "id": 0,
+                "text": "0.5l",
+                "price": "1.950,- Ft"
+            }]
+        },
+        {
+            "id": "13",
+            "text": "Kőfejtő - Hárslevelű",
+            "price": "11.990,- Ft",
+            "subtext": "Somló",
+            "imageUrl": "",
+            "disabled": false,
+            "extras": [
+            {
+                "id": 0,
+                "text": "0.5l",
+                "price": "2.150,- Ft"
+            }]
+        },
+        {
+            "id": "14",
+            "text": "Domaine Nathalie & Gilles Févre - Chablis",
+            "price": "18.900,- Ft",
+            "subtext": "Franciaország - Chablis",
+            "imageUrl": "",
+            "disabled": false,
+            "extras": [
+            {
+                "id": 0,
+                "text": "0.5l",
+                "price": "3.390,- Ft"
+            }]
+        },
+        {
+            "id": "15",
+            "text": "Anonym - „Szinkópa” Chardonnay",
+            "price": "10.900,- Ft",
+            "subtext": "Etyek - Buda",
+            "imageUrl": "",
+            "disabled": false,
+            "extras": [
+            {
+                "id": 0,
+                "text": "0.5l",
+                "price": "1.970,- Ft"
+            }]
+        },
+        {
+            "id": "16",
+            "text": "Konyári - Loliense Fehér",
+            "price": "11.900,- Ft",
+            "subtext": "Balatonboglár",
+            "imageUrl": "",
+            "disabled": false,
+            "extras": [
+            {
+                "id": 0,
+                "text": "0.5l",
+                "price": "2.150,- Ft"
+            }]
+        },
+        {
+            "id": "17",
+            "text": "Recas - Királyleányka Solevari",
+            "price": "11.400,- Ft",
+            "subtext": "Erdély",
+            "imageUrl": "",
+            "disabled": false, 
+            "extras": [
+            {
+                "id": 0,
+                "text": "0.5l",
+                "price": "1.990,- Ft"
+            }]
+        },
+        {
+            "id": "18",
+            "text": "Fattori - Soave Classico „Runcaris”",
+            "price": "13.300,- Ft",
+            "subtext": "Olaszország",
+            "imageUrl": "",
+            "disabled": false,
+            "extras": [
+            {
+                "id": 0,
+                "text": "0.5l",
+                "price": "2.390,- Ft"
+            }]
+        },
+        {
+            "id": "19",
+            "text": "Steigler - Zöldveltelini (Vegán)",
+            "price": "8.590,- Ft",
+            "subtext": "Sopron",
+            "imageUrl": "",
+            "disabled": false,
+            "extras": [
+            {
+                "id": 0,
+                "text": "0.5l",
+                "price": "1.550,- Ft"
+            }]
+        },
+        {
+            "id": "110",
+            "text": "Cseri Pince - „Sextus” Rajnai Rizling Selection",
+            "price": "13.900,- Ft",
+            "subtext": "Pannonhalma",
+            "imageUrl": "",
+            "disabled": false,
+            "extras": [
+            {
+                "id": 0,
+                "text": "0.5l",
+                "price": "2.500,- Ft"
+            }]
+        },
+        {
+            "id": "111",
+            "text": "Dr. Knoll Winery - „Origins” Olaszrizling",
+            "price": "7.890,- Ft",
+            "subtext": "Balatonfüred",
+            "imageUrl": "",
+            "disabled": false,
+            "extras": [
+            {
+                "id": 0,
+                "text": "0.5l",
+                "price": "1.450,- Ft"
+            }]
+        },
+        {
+            "id": "112",
+            "text": "Zelna - „Balaton” Olaszrizling (Bio + Vegán)",
+            "price": "7.890,- Ft",
+            "subtext": "Balatonfüred",
+            "imageUrl": "",
+            "disabled": false,
+            "extras": [
+            {
+                "id": 0,
+                "text": "0.5l",
+                "price": "1.450,- Ft"
+            }]
+        },
+        {
+            "id": "113",
+            "text": "Villa Maria - Reserve Sauvignon Blanc",
+            "price": "14.900,- Ft",
+            "subtext": "Új-Zéland - Marlborough",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "114",
+            "text": "Anonym - Sauvignon Blanc „Frazír”",
+            "price": "8.990,- Ft",
+            "subtext": "Etyek-Buda",
+            "imageUrl": "",
+            "disabled": false,
+            "extras": [
+            {
+                "id": 0,
+                "text": "0.5l",
+                "price": "1.650,- Ft"
+            }]
+        },
+        {
+            "id": "115",
+            "text": "Geszler - Zenit",
+            "price": "7.590,- Ft",
+            "subtext": "Mór",
+            "imageUrl": "",
+            "disabled": false,
+            "extras": [
+            {
+                "id": 0,
+                "text": "0.5l",
+                "price":"1.370,- Ft"
+            }]
+        },
+        {
+            "id": "116",
+            "text": "Haraszthy Pincészet - Sir Irsai",
+            "price": "7.590,- Ft",
+            "subtext": "Etyek-Buda",
+            "imageUrl": "",
+            "disabled": false,
+            "extras": [
+            {
+                "id": 0,
+                "text": "0.5l",
+                "price": "1.370,- Ft"
+            }]
+        }]
+    }]
+}

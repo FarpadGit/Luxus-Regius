@@ -1,0 +1,486 @@
+{
+    "template": {
+        "name": "A",
+        "legend": {
+            "show": true,
+            "text": "ALLERGÉNEK: 1 - Glutén, 2 - Rákfélék, 3 - Tojás, 4 - Halak, 5 - Földimogyoró, 6 - Szójabab, 7 - Tej, 8 - Diófélék, 9 - Zeller, 10 - Mustár, 11 - Szezámmag, 12 - Kén-dioxid, 13 - Csillagfürt, 14 - Puhatestűek, 15 - Méz"
+        }
+    },
+    "menu": [{
+        "id": "0",
+        "text": "Séfünk Ajánlata",
+        "level": 0,
+        "isRightColumn": false,
+        "children": [
+        {
+            "id": "00",
+            "text": "Gillardeau osztriga (Normandia) (12,14)",
+            "price": "2.990,-Ft/db",
+            "subtext": "Gillardeau Oyster (Normandy)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "01",
+            "text": "Hideg korianderes mangóleves (vegán) 12",
+            "price": "2.950,-Ft",
+            "subtext": "Cold mango soup with coriander (vegan)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "02",
+            "text": "Aplesi folyami lazacpisztráng kaviár mártással (4,9,12)",
+            "price": "390,-Ft/dkg",
+            "subtext": "Alpine saibling with caviar sauce",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "03",
+            "text": "Új - zélandi csontos bárány gerinc (7)",
+            "price": "9.980,-Ft",
+            "subtext": "Rack of lamb from New Zealand",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "04",
+            "text": "Faszénen sült új - zélandi bárány fartő (9,12)",
+            "price": "7.990,-Ft",
+            "subtext": "Charcoal grilled New Zealand lamb rump",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "05",
+            "text": "Pirított bélszíncsíkok gombákkal, ötbors dresszinges kevert salátával (10,12)",
+            "price": "6.900,-Ft",
+            "subtext": "Pan-fried beef tenderloin strips, mushrooms and mixed salad with five-pepper dressing",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "06",
+            "text": "Syrah vörösboros bőszénfai szarvastokány barnavajas burgonyapürével (7,9,12)",
+            "price": "6.900,-Ft",
+            "subtext": "Syrah red wine venison stew with brown butter mashed potato",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "07",
+            "text": "Faszénen sült Angus velős csont lepénykenyérrel (1)",
+            "price": "4.990,-Ft",
+            "subtext": "Charcoal grilled Angus marrow bone with flat bread",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "08",
+            "text": "Felsőnyárádi Angus hátszín szárazon érlelt (41 nap) 200 g (HU) (7)",
+            "price": "13.990,-Ft",
+            "subtext": "Dry-aged (41 days) Angus sirloin 200 g (HU)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "09",
+            "text": "Felsőnyárádi Angus bélszín Chateaubriand (7)",
+            "price": "490,-Ft/dkg",
+            "subtext": "Angus tenderloin Chateaubriand",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "10",
+            "text": "Tejparfé extra szűz olíva olajjal, maldon sóval, étcsokoládé szósszal és frissen reszelt citromhéjjal (5,6,7,8,11,12,15)",
+            "price": "2.750,-Ft",
+            "subtext": "Olive Oil & Sea Salt Ice Cream",
+            "imageUrl": "",
+            "disabled": false
+        }]
+    },
+    {
+        "id": "1",
+        "text": "Grill terasz",
+        "level": 0,
+        "isRightColumn": false,
+        "children": [
+        {
+            "id": "1A",
+            "text": "faszénen sült",
+            "level": 1,
+            "isRightColumn": false,
+            "children": [
+            {
+                "id": "10",
+                "text": "Sáripusztai BBQ Angus marhaszegy 200gr BBQ szósszal (16 órát kemencében sült) (1,4,6,9,10,11,12,15)",
+                "price": "7.850,-Ft",
+                "subtext": "BBQ Angus beef brisket 200 gr (oven baked over 16 hours) with BBQ sauce",
+                "imageUrl": "",
+                "disabled": false
+            },
+            {
+                "id": "11",
+                "text": "Spanyol csirkemell paradicsomos olívás mártással és lepénykenyérrel (1,9,12)",
+                "price": "4.950,-Ft",
+                "subtext": "Spanish style chicken breast with tomato-black olive sauce and flat bread",
+                "imageUrl": "",
+                "disabled": false
+            },
+            {
+                "id": "12",
+                "text": "Karibi kacsa tortilla tekercs (tépett kacsa, karibi mangós-barackos salsa, koriander) (1,6,12)",
+                "price": "6.350,-Ft",
+                "subtext": "Caribbean duck tortilla (pulled duck, mango-apricot salsa, coriander)",
+                "imageUrl": "",
+                "disabled": false
+            },
+            {
+                "id": "13",
+                "text": "Pulled pork (tépett BBQ sertéstarja, BBQ szósz, majonézes káposztasaláta, jalapeno, lepénykenyér) (1,4,6,9,10,11,12,15)",
+                "price": "5.250,-Ft",
+                "subtext": "Pulled pork in flatbread (BBQ pork clod, coleslaw, jalapeno, BBQ sauce)",
+                "imageUrl": "",
+                "disabled": false
+            },
+            {
+                "id": "14",
+                "text": "Cheddar sajtos Tex-Mex kukorica (7)",
+                "price": "2.290,-Ft",
+                "subtext": "Tex-Mex corn salad with cheddar",
+                "imageUrl": "",
+                "disabled": false
+            },
+            {
+                "id": "15",
+                "text": "Grillezett avokádó baconnel",
+                "price": "2.990,-Ft",
+                "subtext": "Grilled avocado with bacon",
+                "imageUrl": "",
+                "disabled": false
+            },
+            {
+                "id": "16",
+                "text": "Édesburgonya falatok Cézár öntettel és parmezánnal (3,4,6,7,10,12)",
+                "price": "2.550,-Ft",
+                "subtext": "Sweet potato bites with Cesar sauce and parmesan",
+                "imageUrl": "",
+                "disabled": false
+            }]
+        }]
+    },
+    {
+        "id": "2",
+        "text": "Előételek",
+        "level": 0,
+        "isRightColumn": false,
+        "children": [
+        {
+            "id": "20",
+            "text": "Roston sült kecskesajt mogyoró dresszinges rukkola salátával  pirított balatoni mogyoróval  (7,8,12,15)",
+            "price": "5.350,-Ft",
+            "subtext": "Grilled goat cheese, arugula with hazelnut dressing  and toasted hazelnuts",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "21",
+            "text": "Korianderes tonhal ceviche avokádóval (4,15)",
+            "price": "4.750,-Ft",
+            "subtext": "Tuna ceviche with avocado and coriander",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "22",
+            "text": "Klasszikus bélszín tatár savanyított zöldségekkel és házi füstölésű fürjtojással (1,3,4,6,7,10,12)",
+            "price": "5.650,-Ft",
+            "subtext": "Beef tenderloin tartare with homemade smoked quail egg and marinated vegetables",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "23",
+            "text": "Libamáj duó - cseresznyefán házilag füstölt és rostonsült hízott libamáj rebarbara chutney-val és hagymás kaláccsal (1,3,7,12)",
+            "price": "7.250,-Ft",
+            "subtext": "Foie gras duo - homemade cherry wood smoked and grilled foie gras with rhubarb chutney and onion brioche bread",
+            "imageUrl": "",
+            "disabled": false
+        }]
+    },
+    {
+        "id": "3",
+        "text": "Levesek",
+        "level": 0,
+        "isRightColumn": false,
+        "children": [
+        {
+            "id": "30",
+            "text": "Burgonya krémleves szarvasgombával és póréhagymával (9,12) - vegán",
+            "price": "2.750,-Ft",
+            "subtext": "Potato cream soup with truffle and leek",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "31",
+            "text": "Tanyasi csirke consommé fásgaluskával (3,9,12)",
+            "price": "2.950,-Ft",
+            "subtext": "Farm chicken consommé with meat dumpling",
+            "imageUrl": "",
+            "disabled": false
+        }]
+    },
+    {
+        "id": "4",
+        "text": "Főételek",
+        "level": 0,
+        "isRightColumn": false,
+        "children": [
+        {
+            "id": "4A",
+            "text": "Húsmentes Főételek",
+            "level": 1,
+            "isRightColumn": false,
+            "children": [
+            {
+                "id": "40",
+                "text": "Rizottó gombákkal és Tête de Moine sajttal (7,9,12)",
+                "price": "6.850,-Ft",
+                "subtext": "Risotto with mushrooms and Tête de Moine cheese",
+                "imageUrl": "",
+                "disabled": false
+            },
+            {
+                "id": "41",
+                "text": "Füstös jégcsapretek érmék zöldség-pecsenyelével, alga salátával, edamame babbal (6,9,11,12) - vegán",
+                "price": "4.750,-Ft",
+                "subtext": "Smoked Japanese white radish medallions with vegan gravy, wakame and edamame beans",
+                "imageUrl": "",
+                "disabled": false
+            }]
+        },
+        {
+            "id": "4B",
+            "text": "Hal- és Húsételek (köret választékunk alább található)",
+            "level": 1,
+            "isRightColumn": false,
+            "children": [
+            {
+                "id": "42",
+                "text": "Szentgyörgyvári tokhal filé Szumátrai vad Andaliman borsos yuzu mártással (4,7,9,12)",
+                "price": "7.450,-Ft",
+                "subtext": "Sturgeon fillet from Szentgyörgyvár and Yuzu sauce with wild Andaliman pepper from Sumatra",
+                "imageUrl": "",
+                "disabled": false
+            },
+            {
+                "id": "43",
+                "text": "Serpenyőben sült óriás garnéla pezsgős - yuzus rizottóval (2,7,9,12)",
+                "price": "9.900,-Ft",
+                "subtext": "Pan fried giant prawn with champagne - yuzu risotto",
+                "imageUrl": "",
+                "disabled": false
+            },
+            {
+                "id": "44",
+                "text": "Csőben sült homár thermidor csiperkével, parajjal és parmezánnal besütve (1,2,4,7,9,12)",
+                "price": "17.900,-Ft",
+                "subtext": "Oven baked lobster thermidor with champignon, spinach and parmesan",
+                "imageUrl": "",
+                "disabled": false
+            },
+            {
+                "id": "45",
+                "text": "Mediterrán sertéskaraj ropogós pankó morzsában parmezánnal és paradicsomos-kápiás rukkolával (1,3,7,12)",
+                "price": "5.550,-Ft",
+                "subtext": "Deep fried breaded Mediterranian pork chop with parmesan, tomato - red sweet pepper and arugula",
+                "imageUrl": "",
+                "disabled": false
+            },
+            {
+                "id": "46",
+                "text": "Tépett mangalica csülök Knob Creek Rye Whiskey-vel brezírozva, kapros tökraguval és kapor olajjal (1,9,12)",
+                "price": "6.490,-Ft",
+                "subtext": "Pulled Mangalitsa pork shank braised in Knob Creek Rye Whiskey with dill squash ragout and dill oil",
+                "imageUrl": "",
+                "disabled": false
+            }]
+        },
+        {
+            "id": "4C",
+            "text": "Steak ajánlatunk",
+            "level": 1,
+            "isRightColumn": false,
+            "children": [
+            {
+                "id": "47",
+                "text": "Bőszénfai szarvas gerinc - 200 g (7)",
+                "price": "9.950,-Ft",
+                "subtext": "Venison sirloin from Bőszénfa - 200 g",
+                "imageUrl": "",
+                "disabled": false
+            },
+            {
+                "id": "48",
+                "text": "Új-zélandi báránygerinc filé (7)",
+                "price": "9.750,-Ft",
+                "subtext": "Lamb sirloin fillet from New Zealand",
+                "imageUrl": "",
+                "disabled": false
+            },
+            {
+                "id": "49",
+                "text": "Sáripusztai Angus Rib Eye (HU) szárazon érlelt - 250 g (7)",
+                "price": "13.990",
+                "subtext": "Dry aged Angus Rib Eye HU",
+                "imageUrl": "",
+                "disabled": false
+            },
+            {
+                "id": "410",
+                "text": "Omaha steak bélszín (USDA Choice) 200 g (7)",
+                "price": "18.900,-Ft",
+                "subtext": "Omaha beef tenderloin (USDA Choice)",
+                "imageUrl": "",
+                "disabled": false
+            },
+            {
+                "id": "411",
+                "text": "Wagyu Flank steak (AUS) - 150g (7)",
+                "price": "14.450,-Ft",
+                "subtext": "",
+                "imageUrl": "",
+                "disabled": false
+            },
+            {
+                "id": "412",
+                "text": "Westholme Wagyu hátszín steak AUS (7)",
+                "price": "1.150,-Ft/dkg",
+                "subtext": "Westholme Wagyu sirloin steak AUS",
+                "imageUrl": "",
+                "disabled": false
+            },
+            {
+                "id": "413",
+                "text": "Konyakos zöldbors (7,9,10)",
+                "price": "1.100,-Ft",
+                "subtext": "Cognac - green pepper",
+                "imageUrl": "",
+                "disabled": false
+            },
+            {
+                "id": "414",
+                "text": "Madeira-szarvasgomba (7,9,12)",
+                "price": "1.100,-Ft",
+                "subtext": "Madeira - truffle",
+                "imageUrl": "",
+                "disabled": false
+            },
+            {
+                "id": "415",
+                "text": "Syrah (9,12)",
+                "price": "1.100,-Ft",
+                "subtext": "Syrah",
+                "imageUrl": "",
+                "disabled": false
+            }]
+        },
+        {
+            "id": "4D",
+            "text": "Köretek",
+            "level": 1,
+            "isRightColumn": false,
+            "children": [
+            {
+                "id": "416",
+                "text": "Madársaláta gránátalma dresszinggel (12) - vegán",
+                "price": "1.950,-Ft",
+                "subtext": "Lamb's lettuce salad with pomegranate dressing",
+                "imageUrl": "",
+                "disabled": false
+            },
+            {
+                "id": "417",
+                "text": "Fokhagymás-vajas vadbrokkoli (7,9)",
+                "price": "2.450,-Ft",
+                "subtext": "Garlic-buttery wild broccoli",
+                "imageUrl": "",
+                "disabled": false
+            },
+            {
+                "id": "418",
+                "text": "Kukorica polenta kókusztejjel, zöld curryvel és korianderrel (12) - vegán",
+                "price": "1.750,-Ft",
+                "subtext": "Polenta with coconut milk, green curry and coriander",
+                "imageUrl": "",
+                "disabled": false
+            },
+            {
+                "id": "419",
+                "text": "Sült burgonya tallér",
+                "price": "1.950,-Ft",
+                "subtext": "Crispy fried potato slices",
+                "imageUrl": "",
+                "disabled": false
+            }]
+        }]
+    },
+    {
+        "id": "5",
+        "text": "Desszertek",
+        "level": 0,
+        "isRightColumn": false,
+        "children": [
+        {
+            "id": "50",
+            "text": "A Ház Somlóija (3,5,6,7,8,12)",
+            "price": "3.150,-Ft",
+            "subtext": "Our Somlói sponge cake",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "51",
+            "text": "Kókuszos mangó-maracuja torta (3,5,6,7,8)",
+            "price": "2.890,-Ft",
+            "subtext": "Coconut mango and passion fruit cake",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "52",
+            "text": "Mandulacsokoládé-sárgabarck-amaretto (5,6,8) - vegán",
+            "price": "3.150,-Ft",
+            "subtext": "Almondchocolate - apricot - amaretto (vegan)",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "53",
+            "text": "A Ház Málnája (3,5,6,7,8) - cukormentes",
+            "price": "3.150,-Ft",
+            "subtext": "Our raspberry cake - sugarfree",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "54",
+            "text": "Mogyorós - kávés dacquoise csokoládéval (3,5,6,7,8)",
+            "price": "2.890,-Ft",
+            "subtext": "Hazelnut - coffee dacquoise with chocolate",
+            "imageUrl": "",
+            "disabled": false
+        },
+        {
+            "id": "55",
+            "text": "Nemzetközi sajtízelítő dió krokanttal, Portói boros bébi körtével (Tête de Moine, Reblochon, Tomme pur Bebis, Fourm d'Ambert) 150 g (7,8,12)",
+            "price": "4.350,-Ft",
+            "subtext": "Cheese selection with walnut croquant and Port wine baby pear (Tête de Moine, Reblochon, Tomme pur Bebis, Fourm d'Ambert) 150 g",
+            "imageUrl": "",
+            "disabled": false
+        }]
+    }]
+}

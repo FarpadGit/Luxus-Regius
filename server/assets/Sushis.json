@@ -1,0 +1,459 @@
+﻿{
+  "template": {
+    "name": "C",
+    "legend": {
+      "show": false,
+      "text": "ALLERGÉNEK: 1 - Glutén 2 - Rákfélék 3 - Tojás 4 - Halak 5 - Földimogyoró 6 - Szójabab 7 - Tej 8 - Diófélék 9 - Zeller 10 - Mustár 11 - Szezámmag 12 - Kén-dioxid 13 - Csillagfürt 14 - Puhatestűek 15 - Méz"
+    }
+  },
+  "menu": [{
+    "id": "0",
+    "text": "Makik",
+    "level": 0,
+    "isRightColumn": false,
+    "children": [
+    {
+      "id": "0A",
+      "text": "Makizushik",
+      "level": 1,
+      "isRightColumn": false,
+      "children": [
+      {
+        "id": "00",
+        "text": "Lazac, avokádó maki",
+        "price": "1.990,-Ft / 6 db",
+        "subtext": "",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/maki-lazac-avokado.png",
+        "disabled": false
+      },
+      {
+        "id": "01",
+        "text": "Édes chilis karagee, snidling maki",
+        "price": "1.890,-Ft / 6 db",
+        "subtext": "",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Edes-chilis-karage-snidling-maki.png",
+        "disabled": false
+      },
+      {
+        "id": "02",
+        "text": "Füstölt lazac, rukkola maki",
+        "price": "2.340,-Ft / 6 db",
+        "subtext": "",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Fustolt-lazac-rukkola-maki.png",
+        "disabled": false
+      },
+      {
+        "id": "03",
+        "text": "Lazac kaviár maki",
+        "price": "3.480,-Ft / 6 db",
+        "subtext": "",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Lazac-kaviar-maki.png",
+        "disabled": false
+      },
+      {
+        "id": "04",
+        "text": "Tonhaltatár, saláta maki",
+        "price": "1.890,-Ft / 6 db",
+        "subtext": "",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/maki-vorostonhal-tatar-salata.png",
+        "disabled": false
+      },
+      {
+        "id": "05",
+        "text": "Shiitake maki",
+        "price": "1.980,-Ft / 6 db",
+        "subtext": "",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Shiitake-maki.png",
+        "disabled": false
+      },
+      {
+        "id": "06",
+        "text": "Japán pácolt retek maki",
+        "price": "1.840,-Ft / 6 db",
+        "subtext": "",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Japan-pacolt-retek-maki.png",
+        "disabled": false
+      },
+      {
+        "id": "07",
+        "text": "Avokádó maki",
+        "price": "2.780,-Ft / 6 db",
+        "subtext": "",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Avokado-maki.png",
+        "disabled": false
+      },
+      {
+        "id": "08",
+        "text": "Ropogós rák maki",
+        "price": "2.480,-Ft / 6 db",
+        "subtext": "",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Ropogosrak-maki.png",
+        "disabled": false
+      },
+      {
+        "id": "09",
+        "text": "Vörös tonhal maki",
+        "price": "2.780,-Ft / 6 db",
+        "subtext": "",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Vorostonhal-maki.png",
+        "disabled": false
+      },
+      {
+        "id": "010",
+        "text": "Füstölt Lazac Maki",
+        "price": "2.380,-Ft / 6 db",
+        "subtext": "",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Fustolt-lazac-maki.png",
+        "disabled": false
+      },
+      {
+        "id": "011",
+        "text": "Japán omlett maki",
+        "price": "1.690,-Ft / 6 db",
+        "subtext": "",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Japan-omlett-maki.png",
+        "disabled": false
+      },
+      {
+        "id": "012",
+        "text": "Kacsamáj maki",
+        "price": "2.980,-Ft / 6 db",
+        "subtext": "",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Kacsamaj-maki.png",
+        "disabled": false
+      },
+      {
+        "id": "013",
+        "text": "Uborka maki",
+        "price": "1.620,-Ft / 6 db",
+        "subtext": "",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Uborka-maki.png",
+        "disabled": false
+      },
+      {
+        "id": "014",
+        "text": "Spenót maki",
+        "price": "2.280,-Ft / 6 db",
+        "subtext": "",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Spenot-maki.png",
+        "disabled": false
+      },
+      {
+        "id": "015",
+        "text": "Avokádó, füstölt lazac, koriander maki",
+        "price": "1.890,-Ft / 6 db",
+        "subtext": "",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/avokado-fustolt-lazac-koriander-maki.png",
+        "disabled": false
+      }]
+    },
+    {
+      "id": "0B",
+      "text": "Uramakik",
+      "level": 1,
+      "isRightColumn": false,
+      "children": [{
+        "id": "016",
+        "text": "Poh 9 tekercs (4 darab)",
+        "price": "4.990,-Ft / 4 db",
+        "subtext": "pirított lazac, ropogós rák, avokádó, római saláta, pikáns öntet",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Poh-9-tekercs.png",
+        "disabled": false
+      },
+      {
+        "id": "017",
+        "text": "Poh 2 tekercs (4 darab)",
+        "price": "3.890,-Ft / 4 db",
+        "subtext": "lazac, tigrisrák, uborka, római saláta, masagós sajtkrém",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/poh-2-tekercs.png",
+        "disabled": false
+      },
+      {
+        "id": "018",
+        "text": "Momiji tekercs (4 darab)",
+        "price": "4.190,-Ft / 4 db",
+        "subtext": "lazac, japán omlett, kaliforniai paprika, tigrisrák, masagós sajtkrém",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/momiji-tekercs.png",
+        "disabled": false
+      },
+      {
+        "id": "019",
+        "text": "Kalifornia tekercs (4 darab)",
+        "price": "4.480,-Ft / 4 db",
+        "subtext": "Piros repülőhal kaviár, surimi rák, uborka, avokádó",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/kalifornia.png",
+        "disabled": false
+      },
+      {
+        "id": "020",
+        "text": "Philadelphia tekercs (4 darab)",
+        "price": "6.280,-Ft / 4 db",
+        "subtext": "füstölt lazac, friss uborka, avokádó ,lazac, japán krémsajt, szezámmag",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Yamato-5.png",
+        "disabled": false
+      },
+      {
+        "id": "021",
+        "text": "Yamato 4 (4 darab)",
+        "price": "8.980,-Ft / 4 db",
+        "subtext": "Friss lazac, krémes avokádó, tigrisrák, vöröstonhal, mangó szósz, szezám",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Yamato-4.png",
+        "disabled": false
+      },
+      {
+        "id": "022",
+        "text": "Yamato 3 (4 darab)",
+        "price": "8.980,-Ft / 4 db",
+        "subtext": "vörös tonhal, kacsamáj, avokádó",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Yamato-3.png",
+        "disabled": false
+      },
+      {
+        "id": "023",
+        "text": "Yamato 2 (4 darab)",
+        "price": "8.480,-Ft / 4 db",
+        "subtext": "friss lazac, tigrisrák, lazackaviár, uborka, majonéz",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Yamato-2.png",
+        "disabled": false
+      },
+      {
+        "id": "024",
+        "text": "Yamato 1 (4 darab)",
+        "price": "5.980,-Ft / 4 db",
+        "subtext": "avokádókrém, ropogós bacon, krémsajt, uborka, teriyaki szósz, majonéz, szezámmag",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Yamato-1.png",
+        "disabled": false
+      },
+      {
+        "id": "025",
+        "text": "Yamato 13 (4 darab)",
+        "price": "9.280,-Ft / 4 db",
+        "subtext": "Krémes kacsamáj, friss avokádó, ropogós hagyma, lágy majonéz és tradicionális japán omlett",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Yamato-13-tekercs.png",
+        "disabled": false
+      },
+      {
+        "id": "026",
+        "text": "Yamato 12 (4 darab)",
+        "price": "5.280,-Ft / 4 db",
+        "subtext": "Ropogós rák, garnélarák, japán omlett, friss római saláta, cukorborsó, pirított mogyoró, pad thai szósz",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Yamato-12-tekercs.png",
+        "disabled": false
+      },
+      {
+        "id": "027",
+        "text": "Yamato 10 - Ushi",
+        "price": "4.980,-Ft / 4 db",
+        "subtext": "Ropogós rák, zöldspárga, sajtkrém, angus bélszín, lyoni hagyma, pikáns kalbi szósz",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Yamato-10-Ushi.png",
+        "disabled": false
+      },
+      {
+        "id": "028",
+        "text": "Yamato 6",
+        "price": "6.980,-Ft / 4 db",
+        "subtext": "Füstölt lazac, uborka, avokádó, lazac, japán krémsajt",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Yamato-6.png",
+        "disabled": false
+      },
+      {
+        "id": "029",
+        "text": "Tamago no nori (4 darab)",
+        "price": "1.890,-Ft / 4 db",
+        "subtext": "sushi rizs, omlett, krémsajt, rukkola, füstölt lazac, zöld repülőhal kaviár, chilli szál",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Tamago-No-Nori.png",
+        "disabled": false
+      }]
+    },
+    {
+      "id": "0C",
+      "text": "Válogatások",
+      "level": 1,
+      "isRightColumn": false,
+      "children": [
+      {
+        "id": "030",
+        "text": "Philafornia tekercs válogatás (8 db)",
+        "price": "6.490,-Ft / 8 db",
+        "subtext": "4 Phildelphia new style tekercs, 4 Kalifornia new style tekercs",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Philafornia-tekercs-valogatas.png",
+        "disabled": false
+      },
+      {
+        "id": "031",
+        "text": "Bara maki válogatás (12 db)",
+        "price": "3.890,-Ft",
+        "subtext": "3 avokádó maki, 3 tonhalkrémes uborka maki, 3 tonhaltatár saláta maki, 3 vöröstonhal chili újhagyma maki",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Bara-maki-valogatas.png",
+        "disabled": false
+      },
+      {
+        "id": "032",
+        "text": "Shi maki válogatás (12 db)",
+        "price": "2.990,-Ft",
+        "subtext": "3 lazac maki, 3 avokádó maki, 3 uborka maki, 3 ropogós rák maki",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Shi-maki-valogatas.png",
+        "disabled": false
+      },
+      {
+        "id": "033",
+        "text": "Akapohlko vegyes válogatás (13 db)",
+        "price": "5.490,-Ft",
+        "subtext": "2 Poh 9 tekercs, 2 Akasaka tekercs, 3 uborka maki, 3 japán omlett maki, 3 cukorborsó, füstölt tofu maki",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Akapohlko-vegyes-valogatas.png",
+        "disabled": false
+      },
+      {
+        "id": "034",
+        "text": "Ayaka vegyes válogatás (16 db)",
+        "price": "8.480,-Ft",
+        "subtext": "2 lazac maki, 2 japán omlett maki, 2 spárga maki, 2 uborka maki, 2 füstölt lazac-rukkola maki, 2 lazackaviár maki, 2 ropogós rák maki, 2 kacsamáj maki",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Ayaka.png",
+        "disabled": false
+      },
+      {
+        "id": "035",
+        "text": "Sengiri vegyes válogatás (14 db)",
+        "price": "9.480,-Ft",
+        "subtext": "2 lazac maki, 2 avokádó maki, 2 füstölt lazac maki, 2 vöröstonhal-chili-snidling maki, 2 Yamato 1 tekercs, 2 Yamato 3 tekercs, 2 Yamato 11 tekercs",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Sengiri.png",
+        "disabled": false
+      },
+      {
+        "id": "036",
+        "text": "Mitsuko vegyes válogatás (14 db)",
+        "price": "7.980,-Ft",
+        "subtext": "4 Vega tekercs (bébirépa, avokádó, uborka, füstölt tofu), 2 spenót maki, 2 uborka maki, 2 avokádó maki, 1 shiitake gomba nigiri, 1 avokádó gunkan, 1 bébikukorica nigiri, 1 spárga nigiri",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Mitsuko.png",
+        "disabled": false
+      },
+      {
+        "id": "037",
+        "text": "Ebi vegyes válogatás (12 db)",
+        "price": "10.890,-Ft",
+        "subtext": "4 Poh 9 tekercs, 4 Pad thai tekercs, 3 ropogós rák maki, 1 tigrisrák nigiri",
+        "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Ebi-vegyes-valogatas.png",
+        "disabled": false
+      }]
+    }]
+  },
+  {
+    "id": "1",
+    "text": "Nigirik",
+    "level": 0,
+    "isRightColumn": false,
+    "children": [
+    {
+      "id": "10",
+      "text": "Rákkrémes nigiri",
+      "price": "790,-Ft / db",
+      "subtext": "",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/nigiri-pikans-garnelarakkrem.png",
+      "disabled": false
+    },
+    {
+      "id": "11",
+      "text": "Tonhalkrémes nigiri",
+      "price": "890,-Ft / db",
+      "subtext": "",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/nigiri-Tonhalkremes.png",
+      "disabled": false
+    },
+    {
+      "id": "12",
+      "text": "Lazac nigiri",
+      "price": "1.620,-Ft / db",
+      "subtext": "",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Lazac-nigiri.png",
+      "disabled": false
+    },
+    {
+      "id": "13",
+      "text": "Unagi nigiri",
+      "price": "2.460,-Ft / db",
+      "subtext": "Édes szójaszószban pácolt, grillezett japán angolna",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Unagi-nigiri.png",
+      "disabled": false
+    },
+    {
+      "id": "14",
+      "text": "Fűszervajas wagyu bélszín nigiri 2db",
+      "price": "7.680,-Ft / 2 db",
+      "subtext": "Házi fűszervajas wagyu bélszín",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Fuszervajas-wagyu-belszin-nigiri.png",
+      "disabled": false
+    },
+    {
+      "id": "15",
+      "text": "Nobashi nigiri",
+      "price": "2.460,-Ft / db",
+      "subtext": "Édes húsú folyami rák",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Nobashi-nigiri.png",
+      "disabled": false
+    },
+    {
+      "id": "16",
+      "text": "Füstölt lazac nigiri",
+      "price": "1.780,-Ft / db",
+      "subtext": "",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Fustolt-lazac-nigiri.png",
+      "disabled": false
+    },
+    {
+      "id": "17",
+      "text": "Vöröstonhal nigiri",
+      "price": "1.820,-Ft / db",
+      "subtext": "",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Vorostonhal-nigiri.png",
+      "disabled": false
+    },
+    {
+      "id": "18",
+      "text": "Japán Omlett Nigiri",
+      "price": "1.480,-Ft / db",
+      "subtext": "",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Japan-omlett-nigiri.png",
+      "disabled": false
+    },
+    {
+      "id": "19",
+      "text": "Pirított vöröstonhal nigiri kalbi szósszal, újhagymával",
+      "price": "1.920,-Ft / db",
+      "subtext": "Pirított vöröstonhal, kalbi szósszal és friss újhagymával",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Piritott-vorostonhal-nigiri-kalbi-szosszal-ujhagymaval.png",
+      "disabled": false
+    },
+    {
+      "id": "110",
+      "text": "Shiitake gomba BBQ szósszal nigiri",
+      "price": "1.480,-Ft / db",
+      "subtext": "Édes-sós ízű shiitake gomba BBQ szósszal",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Shiitake-gomba-bbq-szosszal-nigiri.png",
+      "disabled": false
+    },
+    {
+      "id": "111",
+      "text": "Zöldspárga nigiri",
+      "price": "1.280,-Ft / db",
+      "subtext": "Friss zöldspárga teriyaki szósszal és szezámmal",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Zoldsparga-nigiri.png",
+      "disabled": false
+    },
+    {
+      "id": "112",
+      "text": "Bébi Kukorica Nigiri",
+      "price": "1.280,-Ft / db",
+      "subtext": "",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Bebi-kukorica-nigiri.png",
+      "disabled": false
+    },
+    {
+      "id": "113",
+      "text": "Pirított sügér nigiri (Branzino)",
+      "price": "1.620,-Ft / db",
+      "subtext": "Enyhén pirított sügér, wasabis citrusos mártással díszítve",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/sushi/Piritott-suger-nigiri-Branzino.png",
+      "disabled":false
+    }]
+  }]
+}

@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Batoshi;
+    src: local("Batoshi"), url("../batoshi.ttf");
+}
+
+:root:has(.page.wine) {
+    background-image: url("/wine-bg.jpg");
+    --color-background: #242231;
+    background-blend-mode: overlay;
+    background-size: contain;
+
+    --font-menu-highlight: Baskerville;
+    --font-menu-text: Baskerville;
+
+    .dropzone {
+        border-image: url("/border-white.png") 1 round;
+    }
+
+    #legend-container {
+
+        p,
+        input {
+            color: white;
+        }
+    }
+}

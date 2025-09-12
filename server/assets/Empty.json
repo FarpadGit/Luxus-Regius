@@ -1,0 +1,10 @@
+﻿{
+  "template": {
+    "name": "A",
+    "legend": {
+      "show": false,
+      "text": ""
+    }
+  },
+  "menu": []
+}

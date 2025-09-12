@@ -1,0 +1,13 @@
+@font-face {
+    font-family: Gummy Candy;
+    src: local("Gummy Candy"), url("../GummyCandy-Regular.otf");
+}
+
+@font-face {
+    font-family: Cookie;
+    src: local("Cookie"), url("../Cookie.otf");
+}
+
+:root:has(.page.cake) {
+    --font-menu-highlight: Cookie;
+}

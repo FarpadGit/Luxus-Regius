@@ -1,0 +1,188 @@
+﻿{
+  "template": {
+    "name": "D",
+    "legend": {
+      "show": true,
+      "text": "ALLERGÉNEK: 1 - Glutén, 2 - Pisztácia, 3 - Tojás, 4 - Földimogyoró, 5 - Szójabab, 6 - Tej, 7 - Diófélék"
+    }
+  },
+  "menu": [{
+    "id": "0",
+    "text": "Rendelhető torták",
+    "level": 0,
+    "isRightColumn": false,
+    "children": [
+    {
+      "id": "00",
+      "text": "Málnás csokoládé trüffel torta (3,5)",
+      "price": "",
+      "subtext": "Kakaós piskóta málnapürével, málnapálinkával és Weiss 63%-os étcsokoládéból készült krémmel rétegezve, kakaóporral szórva, friss málnával díszítve. Alkoholt tartalmaz.",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/cake/malnas-csoki-truffel.jpg",
+      "disabled": false,
+      "extras": [
+      {
+          "id": 0,
+          "text": "6 szelet",
+          "price": "11.900,-Ft"
+      },
+      {
+          "id": 1,
+          "text": "12 szelet",
+          "price": "23.800,-Ft"
+      },
+      {
+          "id": 2,
+          "text": "16 szelet",
+          "price": "31.900,-Ft"
+      }]
+    },
+    {
+      "id": "01",
+      "text": "Meggyes csokoládé mousse torta (5,7)",
+      "price": "",
+      "subtext": "Konyakos meggyragu lágy csokoládé mousse-ban, ropogós mandulalisztes rétegen kakaóbabtörettel, mogyorópralinéval. Alkoholt tartalmaz.",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/cake/meggyes-csoki-mousse.jpg",
+      "disabled": false,
+      "extras": [
+      {
+          "id": 0,
+          "text": "12 szelet",
+          "price": "21.800,-Ft"
+      }]
+    },
+    {
+      "id": "02",
+      "text": "Ruby csokoládé mousse torta málnazselével (3,5,6,7)",
+      "price": "",
+      "subtext": "Callebaut Ruby csokoládés piskóta, Ruby csokoládé mousse fanyar málnazselével töltve, málna tükörzselével bevonva.",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/cake/ruby-csoki-mousse.jpg",
+      "disabled": false,
+      "extras": [
+      {
+          "id": 0,
+          "text": "6 szelet",
+          "price": "10.900,-Ft"
+      },
+      {
+          "id": 1,
+          "text": "10 szelet",
+          "price": "18.900,-Ft"
+      },
+      {
+          "id": 2,
+          "text": "16 szelet",
+          "price": "29.700,-Ft"
+      }]
+    },
+    {
+      "id": "03",
+      "text": "Mogyorós-kávés-csokoládés torta (3,4,5,6,7)",
+      "price": "",
+      "subtext": "Mogyorólisztből készült gluténmentes piskóta, kávés, mogyorós, étcsokoládés krémmel rétegezve, csokoládé mázzal borítva.",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/cake/dacquoise-torta.jpg",
+      "disabled": false,
+      "extras": [
+      {
+          "id": 0,
+          "text": "6 szelet",
+          "price": "8.800,-Ft"
+      },
+      {
+          "id": 1,
+          "text": "12 szelet",
+          "price": "16.900,-Ft"
+      },
+      {
+          "id": 2,
+          "text": "18 szelet",
+          "price": "22.800,-Ft"
+      }]
+    },
+    {
+      "id": "04",
+      "text": "Mangó-maracuja torta (1,3,6)",
+      "price": "",
+      "subtext": "Vaníliás piskótaalap mangós-maracujás roppanós réteggel és mousse-szal, savanykás erdei gyümölcsréteggel borítva, a tetején erdei gyümölcsös tejszínhab és piros bársony bevonat.",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/cake/mango-marakuja.jpg",
+      "disabled": false,
+      "extras": [
+      {
+          "id": 0,
+          "text": "8 szelet",
+          "price": "11.120,-Ft"
+      },
+      {
+          "id": 1,
+          "text": "12 szelet",
+          "price": "16.680,-Ft"
+      },
+      {
+          "id": 2,
+          "text": "16 szelet",
+          "price": "22.240,-Ft"
+      }]
+    },
+    {
+      "id": "05",
+      "text": "Árvácska Torta (1,3,4,5,6)",
+      "price": "",
+      "subtext": "Lisztmentes, pörkölt sós mogyorós tejcsokoládés roppanós réteg csokoládés piskótával és krémes mogyorós réteggel. A torta közepe fanyar feketeribizlis, homoktövises zseléréteggel van bevonva, körülötte pedig savanykás homoktövis-mousse.",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/cake/arvacska.jpg",
+      "disabled": false,
+      "extras": [
+      {
+          "id": 0,
+          "text": "8 szelet",
+          "price": "12.720,-Ft"
+      },
+      {
+          "id": 1,
+          "text": "12 szelet",
+          "price": "19.080,-Ft"
+      },
+      {
+          "id": 2,
+          "text": "16 szelet",
+          "price": "25.440,-Ft"
+      }]
+    },
+    {
+      "id": "06",
+      "text": "Madártej mousse torta (1,3,5,6)",
+      "price": "",
+      "subtext": "Könnyű piskótaágyon fehér csokiból és tejszínből készült, rétegenként hűtött habkönnyű mousse, a tetején lágy bevonat és vaníliás díszítés.",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/cake/madartej-mousse.jpg",
+      "disabled": false,
+      "extras": [
+      {
+          "id": 0,
+          "text": "10 szelet",
+          "price": "9.800,-Ft"
+      }]
+    },
+    {
+      "id": "07",
+      "text": "Pisztácia-málna torta (1,2,3,6)",
+      "price": "",
+      "subtext": "Puha vaníliás piskótán roppanós pisztáciás krokant, lágy pisztácia mousse pörkölt pisztáciadarabokkal gazdagítva, málnával rétegezve.",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/cake/pisztacia-malna.jpg",
+      "disabled":false,
+      "extras": [
+      {
+          "id": 0,
+          "text": "8 szelet",
+          "price": "11.600,-Ft"
+      },
+      {
+          "id": 1,
+          "text": "12 szelet",
+          "price": "17.400,-Ft"
+      },
+      {
+          "id": 2,
+          "text": "16 szelet",
+          "price": "23.200,-Ft"
+      }]
+    }]
+  }]
+}

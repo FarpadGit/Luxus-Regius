@@ -1,0 +1,248 @@
+﻿{
+  "template": {
+    "name": "C",
+    "legend": {
+      "show": false,
+      "text": ""
+    }
+  },
+  "menu": [{
+    "id": "0",
+    "text": "A La Carte",
+    "level": 0,
+    "isRightColumn": false,
+    "children": [
+    {
+      "id": "00",
+      "text": "Áfonya Mojito",
+      "price": "3.890,-Ft",
+      "subtext": "menta, lime, áfonya, Bacardi rum",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/cocktail/Afonya-Mojito.jpg",
+      "disabled": false,
+      "cardColor": "hsl(84 100% 9.53% / 1)",
+      "highlightColor": "hsl(360 100% 49.18% / 1)"
+    },
+    {
+      "id": "01",
+      "text": "Agardi Chameleon G&T",
+      "price": "3.690,-Ft",
+      "subtext": "Agárdi, citrom, lime, csillám, borókabogyó, tonik",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/cocktail/Agardi-Chameleon-GT.jpg",
+      "disabled": false,
+      "highlightColor": "hsl(176 100% 35.29% / 1)"
+    },
+    {
+      "id": "02",
+      "text": "Angelo Azzuro",
+      "price": "2.990,-Ft",
+      "subtext": "Gin, triple sec, blue curacao, vermuth",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/cocktail/Angelo-Azzuro.jpg",
+      "disabled": false,
+      "cardColor": "hsl(192 100% 16.77% / 1)",
+      "highlightColor": "hsl(0 0% 100% / 1)"
+    },
+    {
+      "id": "03",
+      "text": "Bajiru Etsu",
+      "price": "3.890,-Ft",
+      "subtext": "bazsalikom, uborka chips, lime, eper szirup, Etsu gin",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/cocktail/Bajiru-Etsu.jpg",
+      "disabled": false,
+      "highlightColor": "hsl(54 100% 50% / 1)",
+      "cardColor": "hsl(52 100% 15.03% / 1)"
+    },
+    {
+      "id": "04",
+      "text": "Berrylicious",
+      "price": "3.890,-Ft",
+      "subtext": "lime, áfonya szirup, almalé, gránátalmalé, gin",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/cocktail/Berrylicious.jpg",
+      "disabled": false,
+      "highlightColor": "hsl(0 100% 49.75% / 1)",
+      "cardColor": "hsl(0 100% 10.11% / 1)"
+    },
+    {
+      "id": "05",
+      "text": "Blue Lagoon",
+      "price": "2.990,-Ft",
+      "subtext": "Vodka, blue curacao, citrom, cukorszirup, szóda",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/cocktail/Blue-Lagoon.jpg",
+      "disabled": false,
+      "cardColor": "hsl(189 100% 14.74% / 1)",
+      "highlightColor": "hsl(183 100% 49.75% / 1)"
+    },
+    {
+      "id": "06",
+      "text": "Cosmoto",
+      "price": "3.890,-Ft",
+      "subtext": "Friss citromlé, málna szörp, gyömbérsör, Etsu gin",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/cocktail/Cosmoto.jpg",
+      "disabled": false,
+      "cardColor": "hsl(12 46.4% 23.7% / 1)"
+    },
+    {
+      "id": "07",
+      "text": "Etsu Gin Tonic",
+      "price": "3.890,-Ft",
+      "subtext": "Etsu gin, Schweppes tonic, gránátalma, narancs, citrom, áfonya",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/cocktail/Etsu-Gin-tonic.jpg",
+      "disabled": false,
+      "highlightColor": "hsl(0 0% 100% / 1)"
+    },
+    {
+      "id": "08",
+      "text": "Gin Basil Smash",
+      "price": "2.990,-Ft",
+      "subtext": "Gin, bazsalikom, citrom, cukorszirup",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/cocktail/Gin-Basil-Smash.jpg",
+      "disabled": false,
+      "cardColor": "hsl(83 100% 13.87% / 1)",
+      "highlightColor": "hsl(117 100% 49.75% / 1)"
+    },
+    {
+      "id": "09",
+      "text": "Knob Ice Tea",
+      "price": "3.890,-Ft",
+      "subtext": "citrom, rozmaring, Knob whisky, Falernum szirup, Earl Grey tea",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/cocktail/Knob-Ice-Tea.jpg",
+      "disabled": false,
+      "highlightColor": "hsl(27 100% 50% / 1)",
+      "cardColor": "hsl(28 99.01% 13.94% / 1)"
+    },
+    {
+      "id": "010",
+      "text": "Long Island Iced Tea",
+      "price": "4.990,-Ft",
+      "subtext": "Bombay Sapphire, Jose Cuervo Blanco, Absolut, Bacardi Carta Blanca, Triple Sec, Coca Cola, Lime",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/cocktail/Long-Island-Iced-Tea.jpg",
+      "disabled": false,
+      "highlightColor": "hsl(0 0% 100% / 1)"
+    },
+    {
+      "id": "011",
+      "text": "Lychee Mojito",
+      "price": "3.890,-Ft",
+      "subtext": "licsi, lime, menta, Bacardi",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/cocktail/Lychee-Mojito.jpg",
+      "disabled": false,
+      "highlightColor": "hsl(102 100% 49.46% / 1)"
+    },
+    {
+      "id": "012",
+      "text": "Lychee Saketini",
+      "price": "3.890,-Ft",
+      "subtext": "Sake, licsi, fahéjas szilva szirup, lime",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/cocktail/Lychee-Saketini.jpg",
+      "disabled": false,
+      "cardColor": "hsl(0 100% 83.41% / 1)",
+      "highlightColor": "hsl(0 100% 50% / 1)"
+    },
+    {
+      "id": "013",
+      "text": "Malfy G&T",
+      "price": "3.390,-Ft",
+      "subtext": "Malfy Arancia, narancs, borókabogyó, tonik",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/cocktail/Malfy-GT.jpg",
+      "disabled": false,
+      "highlightColor": "hsl(51 100% 50% / 1)",
+      "cardColor": "hsl(20 14.87% 15.59% / 1)"
+    },
+    {
+      "id": "014",
+      "text": "Passion Daiquiri",
+      "price": "3.290,-Ft",
+      "subtext": "Barna rum, maracujapüré, lime, cukorszirup",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/cocktail/Passion-Daiquiri.jpg",
+      "disabled": false,
+      "cardColor": "#f0c334",
+      "highlightColor": "hsl(0 0% 0% / 1)"
+    },
+    {
+      "id": "015",
+      "text": "Raspberry Mojito",
+      "price": "3.890,-Ft",
+      "subtext": "Bacardi, málna, lime, menta",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/cocktail/Raspberry-Mojito.jpg",
+      "disabled": false,
+      "highlightColor": "hsl(19 100% 50% / 1)",
+      "cardColor": "hsl(0 0% 20.23% / 1)"
+    },
+    {
+      "id": "016",
+      "text": "Uborkas Bazsalikomos G&T",
+      "price": "4.890,-Ft",
+      "subtext": "uborka, bazsalikom, áfonya, Etsu Pacific gin, lime, Thomas Henry tonic",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/cocktail/Uborkas-Bazsalikomos-GT.jpg",
+      "disabled": false,
+      "highlightColor": "hsl(97 100% 49.75% / 1)"
+    },
+    {
+      "id": "017",
+      "text": "Umeshu Mojito",
+      "price": "3.890,-Ft",
+      "subtext": "lime, menta, barna cukor, Choya Umeshu",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/cocktail/Umeshu-mojito.jpg",
+      "disabled": false,
+      "highlightColor": "hsl(0 0% 0% / 1)",
+      "cardColor": "hsl(84 100% 84.28% / 1)"
+    },
+    {
+      "id": "018",
+      "text": "Whiskeychigo",
+      "price": "3.890,-Ft",
+      "subtext": "citrom, lime, narancs, eper püré, licsi szirup, gyömbérsör, pezsgő, Nikka whisky",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/cocktail/Whiskeychigo.jpg",
+      "disabled": false,
+      "highlightColor": "hsl(30 0% 100% / 1)",
+      "cardColor": "hsl(30 100% 66.74% / 1)"
+    },
+    {
+      "id": "019",
+      "text": "Yamato Lemonade",
+      "price": "3.890,-Ft",
+      "subtext": "citrom, lime, narancs, gyömbér szirup, Gekkeikan sake, Angostura bitter",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/cocktail/Yamato-Lemonade.jpg",
+      "disabled": false,
+      "highlightColor": "hsl(0 0% 100% / 1)"
+    },
+    {
+      "id": "020",
+      "text": "Yamato Passion",
+      "price": "4.890,-Ft",
+      "subtext": "Eiko vodka, passion fruit, eperpüré, mangólé",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/cocktail/Yamato-Passion.jpg",
+      "disabled": false,
+      "highlightColor": "hsl(14 98.82% 58.47% / 1)",
+      "cardColor": "hsl(0 0% 10.97% / 1)"
+    },
+    {
+      "id": "021",
+      "text": "Yume Sake",
+      "price": "3.890,-Ft",
+      "subtext": "méz, citrom, narancs, Eiko vodka, Gekkeikan sake",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/cocktail/Yume-Sake.jpg",
+      "disabled": false,
+      "highlightColor": "hsl(51 100% 50% / 1)",
+      "cardColor": "hsl(0 0% 24.28% / 1)"
+    },
+    {
+      "id": "022",
+      "text": "Yuzus G&T",
+      "price": "4.890,-Ft",
+      "subtext": "Etsu Yuzu gin, citrus peel, Fever Tree Mediterranean tonic",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/cocktail/Yuzus-GT.jpg",
+      "disabled": false,
+      "highlightColor": "hsl(179 98.19% 72.81% / 1)"
+    },
+    {
+      "id": "023",
+      "text": "Zenzero G&T",
+      "price": "3.390,-Ft",
+      "subtext": "Árpád prémium gyömbérpárlat, lime, eperpüré, gyömbérsör",
+      "imageUrl": "https://ik.imagekit.io/aetkut5si/cocktail/Zenzero-GT.jpg",
+      "disabled": false,
+      "highlightColor": "hsl(0 96.03% 58.47% / 1)",
+      "cardColor": "hsl(0 100% 11.27% / 1)"
+    }]
+  }]
+}

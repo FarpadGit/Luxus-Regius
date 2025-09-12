@@ -1,0 +1,24 @@
+[{
+    "id": "A",
+    "text": "Simple (One Column)",
+    "columns": 1,
+    "cards": false
+},
+{
+    "id": "B",
+    "text": "Simple (Two Columns)",
+    "columns": 2,
+    "cards": false
+},
+{
+    "id": "C",
+    "text": "Image Cards",
+    "columns": 1,
+    "cards": true
+},
+{
+    "id": "D",
+    "text": "Image Table",
+    "columns": 1,
+    "cards": false
+}]
