@@ -23,7 +23,7 @@
         >
             {{ heading.text === "" ? "<Empty Title>" : heading.text }}
             <MenuEditButtons 
-                v-if="reactiveMenu.isMenuEditable && (editButtonsVisible || forceShowEditButtons)"
+                v-if="editButtonsVisible || forceShowEditButtons"
                 :key="heading.children.length"
                 class="!p-4"
                 :options="getEditButtonOptions()"
@@ -37,8 +37,6 @@
 </template>
 
 <script setup lang="ts">
-    type justifyType = "center" | "left" | "right";
-
     const { 
         heading, 
         classes, 
@@ -47,12 +45,13 @@
     } = defineProps<{ 
         heading: categoryType, 
         classes?: { level0?: string, level1?: string }, 
-        justify?: justifyType, 
+        justify?: "center" | "left" | "right", 
         forceShowEditButtons?: boolean 
     }>();
     const emit = defineEmits(["onAddSection", "onAddItem", "onDelete"]);
     const { level0: lvl0Classes = "", level1: lvl1Classes = "" } = classes ?? {};
     
+    const oldValue = ref(heading.text);
     const editButtonsVisible = ref(false);
     const reactiveMenu = useState<reactiveMenuState>("reactiveMenuState").value;
 
@@ -83,8 +82,12 @@
         }
     }
 
-    function handleBlur() {
+    function handleBlur(_: any, reset?: boolean) {
+        if (reset) {
+            heading.text = oldValue.value;
+        }
         heading.editMode = false;
+        oldValue.value = heading.text;
     }
 
     function handleKeyPress(e: KeyboardEvent) {
