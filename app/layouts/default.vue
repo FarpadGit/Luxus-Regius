@@ -73,3 +73,16 @@
     refreshKey.value++;
   }
 </script>
+<style>
+  main:empty::after {
+    content: "Kis türelmet...";
+    font-family: Source Sans Pro;
+    font-size: 50pt;
+    width: 100%;
+    height: calc(100vh - var(--nav-height));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-accent);
+  }
+</style>
