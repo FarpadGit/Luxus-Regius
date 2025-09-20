@@ -1,7 +1,7 @@
 <template>
     <section id="hero">
         <img src="/hero_wine.jpg" alt="" />
-        <div id="hero-text" v-in-viewport.once="'fade-in-down'">Borlap</div>
+        <h1 id="hero-text" v-in-viewport.once="'fade-in-down'">Borlap</h1>
     </section>
     <section>
         <ReactiveMenu
