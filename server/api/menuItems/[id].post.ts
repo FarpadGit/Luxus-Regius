@@ -9,7 +9,7 @@ export default defineEventHandler(async (event) => {
       menu: newMenu,
     });
 
-    saveMenuToDB(id, menuJSON);
+    await saveMenuToDB(id, menuJSON);
   } catch (error) {
     console.error("Failed to save to DB: ", error);
   }
