@@ -1,12 +1,12 @@
 <template>
     <section id="hero">
         <img src="/hero_sushi.png" alt="" class="!object-contain object-[90%_center] pt-8 max-lg:object-center max-lg:brightness-50" v-in-viewport.once="'fade-in-up'" />
-        <div id="hero-text" v-in-viewport.once="'fade-in-down'">
+        <h1 id="hero-text" v-in-viewport.once="'fade-in-down'">
             <span class="relative">
                 Sushik
                 <img src="/underline.png" alt="" v-in-viewport:500.once="'fade-in-right'">
             </span>
-        </div>
+        </h1>
     </section>
     <section>
         <ReactiveMenu
