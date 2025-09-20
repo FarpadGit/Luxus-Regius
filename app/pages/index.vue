@@ -1,11 +1,24 @@
 <template>
     <section id="hero">
-        <div id="hero-text">
-            <span>Luxus</span>
-            <img src="/crest.png" alt="" width="90" />
-            <span>Regius</span>
-        </div>
-        <Carousel v-bind="carouselConfig" :autoplay="5000" slide-effect="fade" :mouse-drag="false" tabindex="-1" class="w-full h-full">
+        <h1 id="hero-text" v-in-viewport.once>
+            <div class="flex">
+                <span class="delay-[2.8s]">L</span>
+                <span class="delay-[2.6s]">u</span>
+                <span class="delay-[2.4s]">x</span>
+                <span class="delay-[2.2s]">u</span>
+                <span class="delay-[2.0s]">s</span>
+            </div>
+            <img src="/crest.png" alt="" width="90" v-in-viewport.once />
+            <div class=" flex">
+                <span class="delay-[2.0s]">R</span>
+                <span class="delay-[2.2s]">e</span>
+                <span class="delay-[2.4s]">g</span>
+                <span class="delay-[2.6s]">i</span>
+                <span class="delay-[2.8s]">u</span>
+                <span class="delay-[3.0s]">s</span>
+            </div>
+        </h1>
+        <Carousel v-bind="carouselConfig" slide-effect="fade" :mouse-drag="false" tabindex="-1" class="w-full h-full">
             <Slide v-for="slide in 7" :key="slide" style="width: 100%;">
                     <img class="carousel__item w-full h-full select-none" alt="" :src="`/carousel/${slide}.jpg`" draggable="false" />
             </Slide>
@@ -158,8 +171,39 @@
 
             span {
                 -webkit-text-fill-color: transparent;
-                background-image: linear-gradient(to bottom, var(--color-selection) 50%, #fff);
+                background-image: linear-gradient(to bottom, black 0%, var(--color-selection) 20%, var(--color-selection) 50%, white 90%, transparent 100%);
                 background-clip: text;
+                background-repeat: no-repeat;
+                background-size: 0% 0%;
+                background-position: left bottom;
+                transition-property: background-size, filter;
+                transition-duration: 3s, 7s;
+                transition-timing-function: ease;
+                filter: drop-shadow(1px 1px 0px #000) drop-shadow(-1px -1px 0px #000) brightness(0.0);
+            }
+
+            span:nth-child(3) {
+                background-position: left top;
+            }
+
+            &.in-viewport {
+                span {
+                    background-size: 100% 100%;
+                    filter: drop-shadow(1px 1px 0px #000) drop-shadow(-1px -1px 0px #000) brightness(1);
+                }
+            }
+
+            img {
+                opacity: 0;
+                scale: 10;
+                rotate: 90deg;
+                transition: all 3s ease-out;
+
+                &.in-viewport {
+                    opacity: 1;
+                    scale: 1;
+                    rotate: 0deg;
+                }
             }
 
             @media (min-width: 640px){
