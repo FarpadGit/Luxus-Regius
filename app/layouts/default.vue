@@ -1,5 +1,5 @@
 <template>
-  <div @dragover.prevent="" @drop.prevent.stop="reactiveMenu.draggedItem = false">
+  <div @dragover.prevent="">
     <NavButtons 
       class="flex z-50 max-md:hidden max-lg:text-xs"
       :class="{'top': atScrollTop}"
@@ -33,8 +33,6 @@
 </template>
 
 <script setup lang="ts">
-  import { footerTextFor } from '~/utils/footerText';
-
   const route = useRoute();
   const router = useRouter();
   router.afterEach(() => showMobileNav.value = false);
@@ -69,7 +67,6 @@
   
   const isLoggedIn = useState<boolean>("isLoggedIn");
   isLoggedIn.value = false;
-  const reactiveMenu = useState<reactiveMenuState>("reactiveMenuState").value;
 
   function handleLogout() {
     isLoggedIn.value = false;
