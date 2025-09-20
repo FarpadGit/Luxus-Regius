@@ -32,7 +32,7 @@
         if(e.key.toLowerCase() === "enter") {
             emit("onBlur", null);
         }
-        if(e.key.toLowerCase() === "escape") {
+        if(["escape", "esc"].includes(e.key.toLowerCase())) {
             emit("onBlur", null, true);
         }
     }
