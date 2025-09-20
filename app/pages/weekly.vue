@@ -1,7 +1,7 @@
 <template>
     <section id="hero">
         <img src="/hero_weekly.jpg" alt="" class="object-[center_30%]" />
-        <div id="hero-text" v-in-viewport.once="'fade-in-right'">Heti Ajánlat</div>
+        <h1 id="hero-text" v-in-viewport.once="'fade-in-right'">Heti Ajánlat</h1>
     </section>
     <section>
         <div class="flex flex-col gap-8 text-center p-8">
@@ -9,7 +9,7 @@
             <p>
                 Na jó ez nem igaz, szándékosan hagytam meg egy üres oldalt hogy kényelmesen eljátszhass az oldal Menü Szerkesztő eszközével, ha esetleg a többi kész oldalt megpiszkálni egy kicsit félelmetesnek hatna. 
                 <br/>
-                (Ne érezd úgy, bármikor vissza tudom őket állítani.)
+                (Ne érezd úgy, bármikor vissza tudod őket állítani.)
                 <br/>
                 Ha a jobb felső sarokra kattintva bejelentkezel (jelszó a portfóliós oldalamon), akkor itt látni fogsz egy szerkesztő panelt (meg az összes többi oldalon is), amivel kedvedre szerkeszthetsz egy vadonat új menüt.
             </p>
