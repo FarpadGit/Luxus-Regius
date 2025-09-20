@@ -32,12 +32,14 @@
             <button 
                 v-if="reactiveMenu.selectedItem" 
                 @click="toggleColorPicker('highlight')"
+                data-testid="change-highlight"
             >
                 Change Highlight Color
             </button>
             <button 
                 v-if="reactiveMenu.selectedItem && currentTemplate?.cards" 
                 @click="toggleColorPicker('card')"
+                data-testid="change-card"
             >
                 Change Card Color
             </button>

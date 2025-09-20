@@ -2,8 +2,8 @@
     <div class="flex flex-col fixed w-[300px] top-[15%] right-[2.5%] pointer-events-auto max-md:w-[250px] max-md:top-[10%] z-10">
         <ColorPicker :key="resetKey" :color="color" @color-change="e => changeColor(e.cssColor)" />
         <div class="flex gap-2 bg-white justify-around p-2">
-            <button @click="resetColor">Reset</button>
-            <button @click="$emit('onClose')">Close</button>
+            <button @click="resetColor" data-testid="reset-btn">Reset</button>
+            <button @click="$emit('onClose')" data-testid="close-btn">Close</button>
         </div>
     </div>
 </template>

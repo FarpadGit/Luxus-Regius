@@ -20,7 +20,11 @@ export default defineNuxtConfig({
   build: {
     transpile: ["oh-vue-icons"],
   },
-  modules: ["@nuxtjs/tailwindcss", "vue3-carousel-nuxt"],
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "vue3-carousel-nuxt",
+    "@nuxt/test-utils/module",
+  ],
   runtimeConfig: {
     loginPassword: "",
     tursoDatabaseUrl: "",

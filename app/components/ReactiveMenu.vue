@@ -12,7 +12,7 @@
         <MenuTemplateD
             v-else-if="reactiveMenu.templateData.name === 'D'"
         />
-        <p v-else>An error happened while loading menu information. Please check the integrity of your template data.</p>
+        <p v-else data-testid="error-msg">An error happened while loading menu information. Please check the integrity of your template data.</p>
         <MenuControlButtons 
             v-if="reactiveMenu.isMenuEditable && templateTypes.map(t => t.id).includes(reactiveMenu.templateData.name)"
             :is-loading="isLoading"
