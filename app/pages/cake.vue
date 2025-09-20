@@ -1,7 +1,7 @@
 <template>
     <section id="hero">
         <img src="/hero_cake.jpg" alt="" />
-        <div id="hero-text" v-in-viewport.once="'fade-in-up'">Torták</div>
+        <h1 id="hero-text" v-in-viewport.once="'fade-in-up'">Torták</h1>
     </section>
     <section>
         <ReactiveMenu
