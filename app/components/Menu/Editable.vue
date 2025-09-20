@@ -1,15 +1,14 @@
 <template>
-  <template v-if="editMode">
-    <PlasticInput
-      v-model="text"
-      :class="classes"
-      :inner-classes="`${twTextAlign()}`"
-      :placeholder="placeholder"
-      :auto-focus="autoFocus"
-      :use-text-area="useTextArea"
-      @on-blur="(e: FocusEvent, reset?: boolean) => $emit('onBlur', e, reset)"
-    />
-  </template>
+  <PlasticInput
+    v-if="editMode"
+    v-model="text"
+    :class="classes"
+    :inner-classes="`${twTextAlign()}`"
+    :placeholder="placeholder"
+    :auto-focus="autoFocus"
+    :use-text-area="useTextArea"
+    @on-blur="(e: FocusEvent, reset?: boolean) => $emit('onBlur', e, reset)"
+  />
   <p 
     v-else-if="text !== '' || !optional"
     :class="`${text === '' ? 'invalid' : ''} ${twTextAlign()} ${classes}`"
@@ -38,7 +37,7 @@
     useTextArea?: boolean
   }>();
   const emit = defineEmits<{onBlur: [e: FocusEvent, reset?: boolean]}>();
-  const text = defineModel<string>();
+  const text = defineModel<string>({required: true});
 
   const reactiveMenu = useState<reactiveMenuState>("reactiveMenuState").value;
 
