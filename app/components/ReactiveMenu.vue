@@ -1,5 +1,5 @@
 <template>
-    <div class="relative flex justify-center">
+    <div class="relative flex justify-center" @drop.prevent="reactiveMenu.draggedItem = false">
         <MenuTemplateA
             v-if="reactiveMenu.templateData.name === 'A'"
         />
