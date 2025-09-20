@@ -7,7 +7,7 @@
         </div>
         <Carousel v-bind="carouselConfig" :autoplay="5000" slide-effect="fade" :mouse-drag="false" tabindex="-1" class="w-full h-full">
             <Slide v-for="slide in 7" :key="slide" style="width: 100%;">
-                    <img class="carousel__item w-full h-full" alt="" :src="`/carousel/${slide}.jpg`" draggable="false" />
+                    <img class="carousel__item w-full h-full select-none" alt="" :src="`/carousel/${slide}.jpg`" draggable="false" />
             </Slide>
         </Carousel>
     </section>
@@ -19,7 +19,7 @@
                 <span class="text-end ml-[6.4rem] max-xl:ml-[5.2rem]">Fényűzés</span>
             </h2>
             <p>
-                A belváros szívében található legfennségesebb fúziós étterem ami soha sem létezett, ugyanis ez egy minta oldal amit gyakorlásból készítettem el. 
+                A belváros szívében található legfennségesebb fúziós étterem ami sohasem létezett, ugyanis ez egy minta oldal amit gyakorlatként készítettem el. 
                 Igazából egy lorem ipsum szöveget is írhattam volna ide, de hát ha már a készítőt se érdekli annyira az alkotás hogy megírja, 
                 akkor ugyan miért feltételeznénk a felhasználótól annyi érdeklődést hogy elolvassa?
             </p>
@@ -93,8 +93,8 @@
                 <span class="text-start border-dashed border-r border-b border-current"></span>
             </h2>
             <p>
-                A hét oldalon igazából ugyanaz az egy komponens található, csak hét különböző konfigurációban és hét különböző listát iterálva. Jelenleg 4 különböző sablon közül lehet kiválasztani a megjelenítést, 
-                mindegyik kategóriákba bontja a menü elemeket. Egy kategóriában vagy csak alkategóriák lehetnek, vagy menü elemek, a kettőt nem lehet keverni. Erre tekintettel is van a szerkesztő interface, 
+                A hét oldalon igazából ugyanaz az egy komponens található, csak hét különböző felállásban és hét különböző listát iterálva. Jelenleg 4 különböző sablon közül választhatsz hogyan szeretnéd megjeleníteni a menüdet, 
+                mindegyik kategóriákba bontja az elemeket. Egy kategóriában vagy csak alkategóriák lehetnek, vagy önálló elemek, a kettőt keverni nem tudod. Erre tekintettel is van a szerkesztő interface, 
                 sem gombokkal sem drag-n-drop művelettel nem enged meg efféle vegyülést. Szerkeszteni dupla kattintással vagy Enter billentyűvel lehet, Escape-pel pedig "mégsézni" a változásokat.
             </p>
             <NuxtLink to="/login" class="btn">Kipróbálom</NuxtLink>
@@ -108,7 +108,10 @@
 
     const carouselConfig = {
         itemsToShow: 2.5,
-        wrapAround: true
+        wrapAround: true,
+        autoplay: 5500,
+        slideEffect: "fade",
+        mouseDrag: "false"
     };
 </script>
 
