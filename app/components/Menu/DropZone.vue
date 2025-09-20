@@ -29,7 +29,6 @@
         small?: boolean
         vertical?: boolean
     }>();
-    const emit = defineEmits(["onDrop"]);
 
     const reactiveMenu = useState<reactiveMenuState>("reactiveMenuState").value;
     const draggedOver = ref(false);
