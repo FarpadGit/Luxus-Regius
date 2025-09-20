@@ -68,7 +68,9 @@ export function useMenuItem(
     },
     on: {
       keypress: handleKeyPress,
-      focusin: () => (reactiveMenu.selectedItem = menuItem()),
+      focusin: () => {
+        reactiveMenu.selectedItem = menuItem();
+      },
       blur: handleBlur,
       dblclick: (e: MouseEvent) => {
         e.stopPropagation();
