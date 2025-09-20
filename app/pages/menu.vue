@@ -1,6 +1,7 @@
 <template>
     <section id="hero">
-        <div id="hero-text" v-in-viewport.once="'fade-in-down'">A Menü</div>
+        <img src="/hero_menu.jpg" alt="" class="block md:hidden"/>
+        <h1 id="hero-text" v-in-viewport.once="'fade-in-down'">A Menü</h1>
     </section>
     <section>
         <ReactiveMenu
