@@ -57,6 +57,7 @@
 
 .page {
     margin-top: var(--nav-height);
+    min-height: var(100vh - var(--nav-height));
 }
 
 section {
