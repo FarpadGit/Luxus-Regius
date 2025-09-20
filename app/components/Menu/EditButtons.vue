@@ -16,7 +16,6 @@
     <div 
       v-if="showOptions" 
       :class="`button-list bordered ${spacing !== 'close' ? 'absolute -translate-x-[110%]' : 'max-sm:absolute max-sm:-translate-x-[110%]'}`"
-      @mouseleave="showOptions = false"
     >
       <button v-if="addSectionButton" class="add-section-btn" @click="$emit('onAddSection')" @dblclick.stop="">
         <v-icon name="md-add-round" />
