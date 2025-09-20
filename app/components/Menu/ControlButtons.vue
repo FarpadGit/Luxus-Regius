@@ -26,7 +26,7 @@
                     :value="option.id" 
                     :selected="reactiveMenu.templateData.name === option.id"
                 >
-                    {{option.text}}
+                    {{ option.text }}
                 </option>
             </select>
             <button 
@@ -45,10 +45,11 @@
             </button>
             <span class="border border-dashed border-black"></span>
             <button class="add-item-btn" @click="addTopHeading('new category ' + (reactiveMenu.menuItems.length + 1), 'left')">
-                {{currentTemplate?.columns === 2 ? "Add New Category (Left)" : "Add New Category"}}
+                {{ currentTemplate?.columns === 2 ? "Add New Category (Left)" : "Add New Category" }}
             </button>
             <button 
-                v-if="currentTemplate?.columns === 2" class="add-item-btn" 
+                v-if="currentTemplate?.columns === 2" 
+                class="add-item-btn" 
                 @click="addTopHeading('new category ' + (reactiveMenu.menuItems.length + 1), 'right')"
             >
                 Add New Category (Right)
@@ -59,7 +60,7 @@
                     class="flex justify-center pointer-events-none"
                 >
                     <input name="legend-input" type="checkbox" class="hidden" />
-                    <span>{{reactiveMenu.templateData.legend.show ? "Remove" : "Add"}} Legend</span>
+                    <span>{{ reactiveMenu.templateData.legend.show ? "Remove" : "Add" }} Legend</span>
                 </label>
             </button>
             <span class="border border-dashed border-black"></span>
