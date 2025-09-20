@@ -1,5 +1,8 @@
 <template>
-    <nav class="fixed w-full flex flex-col md:flex-row items-center justify-center top-0 p-6 h-full md:h-[var(--nav-height)] bg-[var(--color-header-footer)] transition-colors duration-500" >
+    <nav 
+        @dragover.prevent="handleDragOver"
+        class="fixed w-full flex flex-col md:flex-row items-center justify-center top-0 p-6 h-full md:h-[var(--nav-height)] bg-[var(--color-header-footer)] transition-colors duration-500" 
+    >
         <ul class="w-full flex flex-col md:flex-row items-center justify-center gap-10 md:gap-4 tracking-tighter">
             <li><NuxtLink to="/">FŐOLDAL</NuxtLink></li>
             <li><NuxtLink to="/menu">MENÜ</NuxtLink></li>
@@ -21,6 +24,11 @@
 <script setup lang="ts">
     const { isLoggedIn } = defineProps<{isLoggedIn: boolean}>();
     const emit = defineEmits(["onLogout"]);
+
+    function handleDragOver() {
+        window.scrollBy({top: -1});
+    }
+
 </script>
 
 <style scoped>
