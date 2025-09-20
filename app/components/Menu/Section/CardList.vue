@@ -28,7 +28,6 @@
           v-if="isHeading(childMenuItem)"
           :section-heading="childMenuItem as categoryType" 
           :drop-zone-disabled="disableChildrenDropZone"
-          :force-show-edit-buttons="editButtonsVisible || forceShowEditButtons"
           @on-delete="handleDeleteChild(childMenuItem)"
         />
         <div v-else :class="`w-full grid ${reactiveMenu.isMenuEditable ? 'grid-cols-[auto_1fr]' : 'grid-cols-1'}`">
@@ -53,14 +52,10 @@
 <script setup lang="ts">
   const { 
     sectionHeading, 
-    forceShowEditButtons = false, 
     dropZoneDisabled = false, 
   } = defineProps<{ 
     sectionHeading: categoryType, 
-    forceShowEditButtons?: boolean, 
-    disableChildrenDropZone?: boolean,
     dropZoneDisabled?: boolean,
-    draggedOver?: boolean
   }>();
   const emit = defineEmits(["onDelete"]);
 
