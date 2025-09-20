@@ -1,7 +1,7 @@
 <template>
 	<section id="hero">
         <img src="/hero_contact.jpg" alt="" class="object-[center_75%]" />
-        <div id="hero-text" v-in-viewport.once="'fade-in-up'">Kapcsolat</div>
+        <h1 id="hero-text" v-in-viewport.once="'fade-in-up'">Kapcsolat</h1>
     </section>
     <section class="min-h-page">
 		<div class="grid grid-rows-2 grid-cols-2 gap-y-8 max-w-6xl h-full mx-auto p-8 max-sm:flex max-sm:flex-col">
