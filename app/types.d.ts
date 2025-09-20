@@ -28,7 +28,7 @@ type itemType = {
   parent: categoryType;
 };
 
-type templateType = "A" | "B" | "C";
+type templateType = "A" | "B" | "C" | "D";
 
 type templateData = {
   name: templateType;
