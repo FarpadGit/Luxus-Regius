@@ -27,7 +27,6 @@
           v-if="isHeading(childMenuItem)"
           :section-heading="childMenuItem as categoryType" 
           :drop-zone-disabled="disableChildrenDropZone"
-          :force-show-edit-buttons="editButtonsVisible || forceShowEditButtons"
           @on-delete="handleDeleteChild(childMenuItem)"
         />
           <MenuItemImageRecord
@@ -49,14 +48,10 @@
 <script setup lang="ts">
   const { 
     sectionHeading, 
-    forceShowEditButtons = false, 
     dropZoneDisabled = false, 
   } = defineProps<{ 
     sectionHeading: categoryType, 
-    forceShowEditButtons?: boolean, 
-    disableChildrenDropZone?: boolean,
     dropZoneDisabled?: boolean,
-    draggedOver?: boolean
   }>();
   const emit = defineEmits(["onDelete"]);
 
