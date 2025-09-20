@@ -1,8 +1,8 @@
 export function footerTextFor(routePath: string) {
   if (routePath === "/")
     return `Mindig hagyok helyet egy láblécnek és sosem tudom, hogy mit is kellene ide írnom. 
-  Oldal térképnek nem nagyon van sok értelme (használd a fejlécet vagy a mobil menüt, az az oldal térkép és még mindig látszik a képernyőn), nyitva tartási időm nem igazán van, mint ahogy impresszumom
-  vagy adatvédelmi nyilatkozatom sem. Úgyhogy általában csak valami ide nem illő megjegyzés-félét szoktam beszúrni.<br/><br/>
+  Oldaltérképnek nem nagyon van sok értelme (használd a fejlécet vagy a mobil menüt, az az oldaltérkép és még mindig ott van a képernyőn), nyitvatartási időm nem igazán van, mint ahogy impresszumom
+  vagy adatvédelmi nyilatkozatom sem. Úgyhogy általában csak valami ide nem illő megjegyzés-félét vagy érdekességet szoktam beszúrni.<br/><br/>
   Ja, tudom már! Látogass el a <a href="https://fabokarpad.hu" rel="noopener noreferrer" target="_blank">fabokarpad.hu</a> weboldalra hogy megnézhesd a többi általam készült munkámat!`;
   if (routePath === "/menu")
     return `Az átlagos látogató számára ez csak egy egyszerű lista amit legfeljebb elolvasni lehet. De ha az oldal tulajdonosa bejelentkezett, akkor ez egy böngészőben szerkeszthető komponenssé válik ami egérrel, billentyűzettel és érintőképernyővel
@@ -22,7 +22,7 @@ export function footerTextFor(routePath: string) {
   if (routePath === "/wine")
     return `Ha egy kategória fejléc színét változtatod meg akkor azzal együtt az összes gyerek elemének a színét is megváltoztatod, hogy ne kelljen egyesével beállítanod mindegyiket. Ezt felül tudja írni egy lejjebb szereplő elem saját színbeállítása.`;
   if (routePath === "/weekly")
-    return `Ez lényegében a "Playground" oldal. Semmiben sem különbözik a többi oldaltól, csak egy üres listát jelenít meg, hogy kevésbé legyen ijesztő beleírni, árírni, átmozgatni vagy elmenteni az adatbázisba. A reset gombbal úgy is mindegyik menüt vissza lehet állítani 
+    return `Ez lényegében a "Playground" oldal. Semmiben sem különbözik a többi oldaltól, csak egy üres listát jelenít meg, hogy kevésbé legyen ijesztő beleírni, árírni, átmozgatni vagy elmenteni az adatbázisba. A reset gombbal úgyis mindegyik menüt vissza lehet állítani 
   adatbázis szinten az alap beállításokra. A Discard gomb hasonló, de mentés nélkül dobja el az eddigi változásokat és így gyorsabb is.<br/><br/>
   Az elmentett menü és a hozzá tartozó információk egyébként egy egyszerű szöveges JSON adatformában szerepelnek egy SQLite adatbázisban.`;
   if (routePath === "/contact")
