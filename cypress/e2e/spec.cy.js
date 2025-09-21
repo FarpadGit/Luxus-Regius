@@ -20,12 +20,15 @@ describe("e2e", () => {
 
   beforeEach(() => {
     cy.viewport(1280, 1024);
+    cy.fixture("env").as("env");
     cy.visit("/weekly");
     // wait for nuxt hydration to complete
     cy.get("#vue-tracer-overlay", { timeout: 20000 }).should("exist");
     cy.wait(1000);
     cy.get("nav").first().find("a[href*='/login']").click();
-    cy.get("input").type("LRAdmin");
+    cy.get("@env").then((env) => {
+      cy.get("input").type(env.loginPassword);
+    });
     cy.get("button[type='submit']").click();
   });
 
